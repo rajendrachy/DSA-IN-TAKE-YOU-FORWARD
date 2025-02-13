@@ -11,6 +11,7 @@
 #include <stack>
 using namespace std;
 
+
 class Queue {
     stack<int> stack1, stack2; // Two stacks for queue implementation
 
@@ -19,6 +20,7 @@ public:
     void enqueue(int val) {
         stack1.push(val); // Always push into stack1
     }
+
 
     // Function to dequeue (remove) an element from the queue
     void dequeue() {
@@ -106,3 +108,8 @@ int main() {
 
     return 0;
 }
+
+
+
+
+

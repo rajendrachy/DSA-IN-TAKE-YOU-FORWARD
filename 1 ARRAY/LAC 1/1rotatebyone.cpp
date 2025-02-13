@@ -12,6 +12,7 @@ int leftrotate(int arr[], int n) {
   return arr[i];
 };
 
+
 int main()
 {
 
