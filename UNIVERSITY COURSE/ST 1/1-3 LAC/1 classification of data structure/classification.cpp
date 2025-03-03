@@ -58,6 +58,9 @@
 
 // ---
 
+
+
+
 // ## ------------------------**20 MCQs on Data Structures in C++**-------------------------------------
 
 // ### **1. What is the primary purpose of a data structure?**

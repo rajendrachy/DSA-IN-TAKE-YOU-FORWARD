@@ -13,11 +13,11 @@ int leftrotate(int arr[], int n) {
 };
 
 
+
 int main()
 {
-
     int arr[] = {1, 2, 3, 4, 5};
-    int size = sizeof(arr) / sizeof(arr[0]); // size
+    int size = sizeof(arr) / sizeof(arr[0]); // Calculate the size of an array
 
     leftrotate(arr, size);
 
@@ -28,4 +28,5 @@ int main()
 
     return 0;
 }
+
 

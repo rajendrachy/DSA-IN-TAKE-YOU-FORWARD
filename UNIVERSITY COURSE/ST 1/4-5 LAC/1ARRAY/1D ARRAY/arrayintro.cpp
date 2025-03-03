@@ -21,12 +21,14 @@ using namespace std;
 // int main () {
 //     //extern int a[]; // no error -> due to extern // This is DECLERATION
 //     // int roll_no[]; //error -> This is DEFINATION
-//     //int roll_no[] = {1, 4, 8, 0, -5}; // intializing at the same time no need to give a size
+//     //int roll_no[] = {1, 4, 8, 0, -5}; // Intializing at the same time no need to give a size
 //     //int roll_no[10] = {1, 2, 3}; // remaining values are 0
 //     // int roll_no[5] = {1, 2, 3, 4, 5, 6}; // to many initialization are not allowed
 
 //     return 0;
 // }
+
+
 
 
 

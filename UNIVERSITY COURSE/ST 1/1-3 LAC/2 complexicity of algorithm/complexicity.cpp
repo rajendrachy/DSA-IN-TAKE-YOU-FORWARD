@@ -57,7 +57,6 @@
 
 
 
-
 // ## --------------------------**5. How to Calculate Complexity?**---------------------------
 // - Count **loops** (single loop → O(n), nested loop → O(n^2)).
 // - Consider **recursions** (solved using recursion trees and Master’s Theorem).
@@ -67,10 +66,8 @@
 
 
 
-
-
 // ## --------------------------**6. Example in C++**-------------------------------
-// ```cpp
+// ```cpp```
 // #include <iostream>
 // using namespace std;
 
@@ -97,8 +94,6 @@
 // Understanding algorithm complexity is crucial for writing efficient C++ programs. Always aim for optimized solutions with minimal time and space complexity.
 
 // ---
-
-
 
 
 
@@ -150,16 +145,11 @@
 
 
 
-
-
-
 // **5. Which sorting algorithm has the best worst-case complexity?**
 //    a) Bubble Sort  
 //    b) Selection Sort  
 //    c) Merge Sort ✅  
 //    d) Quick Sort  
-
-
 
 
 

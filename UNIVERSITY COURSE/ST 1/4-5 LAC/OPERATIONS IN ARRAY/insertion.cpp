@@ -13,7 +13,7 @@ int main() {
     }
 
     arr[pos] = val;  // Insert the new element
-    n++;             // Increase the size of the array
+    // n++;             // Increase the size of the array
 
     // Display the updated array
     for (int i = 0; i < n; i++) {
@@ -22,5 +22,6 @@ int main() {
 
     return 0;
 }
+
 
 

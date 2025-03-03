@@ -1,7 +1,8 @@
 -----------Stack------------------------ stack -> stack follow the LIFO(Last IN First OUT) data structure
 
  Stack provide you four different function
- 1. push() 2. pop()
+ 1. push() 
+ 2. pop()
  3. top()
  4. size()
 

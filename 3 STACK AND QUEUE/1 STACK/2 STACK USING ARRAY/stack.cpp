@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// Class to implement Stack using an array
+// ------------Class to implement Stack using an array-------------
+
 class Stack {
     int top, size; // 'top' keeps track of the top element index, 'size' is the stack capacity
     int* arr; // Dynamic array to store stack elements
@@ -13,6 +14,8 @@ public:
         arr = new int[size]; // Dynamically allocating memory for the stack
         top = -1; // Stack is initially empty
     }
+    
+
 
     // Function to push an element onto the stack
     void push(int val) {
@@ -23,6 +26,8 @@ public:
         arr[++top] = val; // Increment top and add element
     }
 
+   
+
     // Function to pop an element from the stack
     void pop() {
         if (top == -1) { // Check for stack underflow
@@ -32,6 +37,7 @@ public:
         top--; // Decrement top to remove the top element
     }
 
+    
     // Function to get the top element of the stack without removing it
     int peek() {
         return (top == -1) ? -1 : arr[top]; // Return -1 if stack is empty
@@ -41,6 +47,7 @@ public:
     bool isEmpty() {
         return top == -1;
     }
+
 
     // Function to get the current size (number of elements in stack)
     int getSize() {
