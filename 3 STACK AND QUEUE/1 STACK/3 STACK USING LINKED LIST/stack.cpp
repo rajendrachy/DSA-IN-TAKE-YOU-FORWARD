@@ -36,15 +36,20 @@ public:
         delete temp; // Delete the popped node
     }
 
+
     // Function to get the top element without removing it
     int peek() {
         return (top == nullptr) ? -1 : top->data;
     }
 
+    
+
     // Function to check if the stack is empty
     bool isEmpty() {
         return top == nullptr;
     }
+
+
 
     // Function to display stack elements from top to bottom
     void display() {
@@ -94,3 +99,4 @@ int main() {
 
     return 0;
 }
+

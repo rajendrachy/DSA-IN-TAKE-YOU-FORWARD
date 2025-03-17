@@ -26,7 +26,7 @@
 
 
 
-// --------------Convert Array to the LInked List------------------------------
+// --------------Convert Array to the Linked List------------------------------
 // int arr[] = [2,1,3,8];
 // 
 
